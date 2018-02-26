@@ -1,0 +1,72 @@
+/* COLORS
+* #00e0d0 (blue --> for details)
+*/
+
+body {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #00e0d0;
+    color: #fff;
+}
+
+/***** >>> HEADER <<< *****/
+.header {
+    height: 100vh;
+    background: linear-gradient(rgba(76, 61, 114, 0.7), rgba(76, 61, 114, 0.7)), url(../img/homebg.jpg) no-repeat center / cover fixed;   
+}
+
+.header_content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.header_content h2 {
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.separator {
+    height: 1px;
+    width: 150px;
+    margin: 20px auto;
+    background: #00e0d0;
+}
+
+.header_content p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.header_content .btn {
+    margin-top: 40px;
+}
