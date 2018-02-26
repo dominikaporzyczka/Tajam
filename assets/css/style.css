@@ -4,7 +4,7 @@
 
 body {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 14px;
 }
@@ -13,7 +13,7 @@ h1,
 h2,
 h3 {
     margin: 0;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: 900;
 }
 
@@ -36,6 +36,10 @@ h3 {
 }
 
 /***** >>> HEADER <<< *****/
+/* Header - navigation */
+
+
+/* Header - content */
 .header {
     height: 100vh;
     background: linear-gradient(rgba(76, 61, 114, 0.7), rgba(76, 61, 114, 0.7)), url(../img/homebg.jpg) no-repeat center / cover fixed;   
