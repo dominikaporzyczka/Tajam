@@ -20,6 +20,7 @@ h3 {
 /* BUTTONS */
 .btn {
     display: inline-block;
+    width: 140px;
     padding: 10px 30px;
     font-size: 20px;
     font-weight: 400;
@@ -42,11 +43,19 @@ h3 {
 }
 
 .header_content {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 700px;
     text-align: center;
+}
+
+.header_content h2,
+.header_content p {
+    width: 100%;
 }
 
 .header_content h2 {
@@ -57,13 +66,12 @@ h3 {
 .separator {
     height: 1px;
     width: 150px;
-    margin: 20px auto;
+    margin: 20px 0;
     background: #00e0d0;
 }
 
 .header_content p {
-    max-width: 700px;
-    margin: 0 auto;
+    /* max-width: 700px; */
     line-height: 1.5em;
 }
 
