@@ -4,7 +4,7 @@
 
 body {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 14px;
 }
@@ -13,7 +13,7 @@ h1,
 h2,
 h3 {
     margin: 0;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: 900;
 }
 
@@ -36,6 +36,39 @@ h3 {
 }
 
 /***** >>> HEADER <<< *****/
+/* Header - navigation */
+.nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar li {
+    display: inline-block;
+}
+
+.nav-bar li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.nav-bar li a:hover {
+    color: #00e0d0;
+}
+
+.nav-bar li a:active,
+.nav-bar li .active {
+    color: #00e0d0;
+    border-bottom: 1px solid #00e0d0;
+}
+
+/* Header - content */
 .header {
     position: relative;
     height: 670px;
