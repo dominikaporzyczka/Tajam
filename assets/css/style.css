@@ -38,9 +38,12 @@ h3 {
 /***** >>> HEADER <<< *****/
 /* Header - navigation */
 .nav {
+    position: sticky;
+    z-index: 100;
+    top: 0;
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 20px 20px;
     display: flex;
     justify-content: space-between;
 }
