@@ -37,7 +37,8 @@ h3 {
 
 /***** >>> HEADER <<< *****/
 .header {
-    height: 100vh;
+    position: relative;
+    height: 670px;
     background: linear-gradient(rgba(76, 61, 114, 0.7), rgba(76, 61, 114, 0.7)), url(../img/homebg.jpg) no-repeat center / cover fixed;   
 }
 
